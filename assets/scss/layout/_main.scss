@@ -1,0 +1,21 @@
+.main-wrapper {
+  background-image: url("../../../assets/images/bg-hero-desktop.svg");
+  background-color: $main-bg;
+  .mockup-img-wrapper {
+    height: 500px;
+    width: 100%;
+    img {
+      height: 100%;
+    }
+  }
+}
+.feature {
+  //   background-color: $white;
+}
+.feature-img {
+  height: 400px;
+  width: 100%;
+  img {
+    height: 100%;
+  }
+}
