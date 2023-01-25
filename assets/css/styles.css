@@ -14,6 +14,12 @@ body {
   font-family: "Open Sans", sans-serif;
 }
 
+h1,
+h2,
+h3 {
+  font-family: "Poppins", sans-serif;
+}
+
 :root {
   --bs-blue: #0d6efd;
   --bs-indigo: #6610f2;
@@ -61,7 +67,7 @@ body {
   --bs-font-sans-serif: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
-  --bs-body-font-family: var(--bs-font-sans-serif);
+  --bs-body-font-family: Open Sans, sans-serif;
   --bs-body-font-size: 1rem;
   --bs-body-font-weight: 400;
   --bs-body-line-height: 1.5;
@@ -6159,19 +6165,75 @@ progress {
   background-color: hsl(193deg, 100%, 96%);
 }
 .main-wrapper .mockup-img-wrapper {
-  height: 500px;
+  height: 400px;
   width: 100%;
 }
 .main-wrapper .mockup-img-wrapper img {
   height: 100%;
 }
+.main-wrapper .btn-try {
+  background-color: #fff;
+  border-radius: 25px;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.feature {
+  padding: 88px 88px;
+}
+.feature-wrapper {
+  padding: 40px 40px 40px 100px;
+  box-shadow: 5px 5px 50px #e6e4e4;
+}
+.feature-wrapper p {
+  color: hsl(208deg, 11%, 55%);
+}
 
 .feature-img {
-  height: 400px;
+  height: 300px;
   width: 100%;
 }
 .feature-img img {
   height: 100%;
+}
+
+footer {
+  background-color: hsl(192deg, 100%, 9%);
+  padding: 40px 20px;
+  margin-top: 200px;
+}
+footer .community-wrapper {
+  width: 50%;
+  top: -100px;
+  left: 25%;
+  color: #000;
+}
+footer .logo {
+  color: #fff;
+}
+
+ul li {
+  list-style: none;
+  text-decoration: none;
+}
+ul li a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.social-media-icon {
+  text-decoration: none;
+  color: #fff;
+}
+.social-media-icon span {
+  border: 1px solid #fff;
+  height: 40px;
+  width: 40px;
+  padding: 5px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 /*# sourceMappingURL=styles.css.map */

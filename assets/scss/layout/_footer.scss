@@ -1,0 +1,41 @@
+footer {
+  background-color: hsl(192, 100%, 9%);
+  padding: 40px 20px;
+  margin-top: 200px;
+  .community-wrapper {
+    width: 50%;
+    top: -100px;
+    left: 25%;
+    color: #000;
+  }
+  .logo {
+    color: $white;
+  }
+}
+ul {
+  li {
+    list-style: none;
+    text-decoration: none;
+
+    a {
+      text-decoration: none;
+      color: $white;
+    }
+  }
+}
+
+.social-media-icon {
+  text-decoration: none;
+  color: $white;
+
+  span {
+    border: 1px solid $white;
+    height: 40px;
+    width: 40px;
+    padding: 5px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}

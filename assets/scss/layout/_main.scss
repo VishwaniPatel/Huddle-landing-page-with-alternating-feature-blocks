@@ -2,18 +2,32 @@
   background-image: url("../../../assets/images/bg-hero-desktop.svg");
   background-color: $main-bg;
   .mockup-img-wrapper {
-    height: 500px;
+    height: 400px;
     width: 100%;
     img {
       height: 100%;
     }
   }
+  .btn-try {
+    background-color: $white;
+    border-radius: 25px;
+    font-size: 12px;
+    font-weight: 700;
+  }
 }
+
 .feature {
-  //   background-color: $white;
+  padding: 88px 88px;
+  &-wrapper {
+    padding: 40px 40px 40px 100px;
+    box-shadow: 5px 5px 50px #e6e4e4;
+    p {
+      color: $grayis-blue;
+    }
+  }
 }
 .feature-img {
-  height: 400px;
+  height: 300px;
   width: 100%;
   img {
     height: 100%;

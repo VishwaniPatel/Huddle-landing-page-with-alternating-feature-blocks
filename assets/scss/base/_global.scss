@@ -12,5 +12,10 @@ body {
   height: 100%;
   width: 100%;
   overflow: hidden;
-  font-family: "Open Sans", sans-serif;
+  font-family: $font-family-base;
+}
+h1,
+h2,
+h3 {
+  font-family: "Poppins", sans-serif;
 }
