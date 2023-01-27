@@ -1,11 +1,31 @@
+.header {
+  img {
+    @media (max-width: 425px) {
+      height: 25px;
+    }
+  }
+}
+
 .main-wrapper {
   background-image: url("../../../assets/images/bg-hero-desktop.svg");
   background-color: $main-bg;
+
+  @media (max-width: 768px) {
+    background-image: url("./../../assets/images/bg-hero-mobile.svg");
+  }
   .mockup-img-wrapper {
     height: 400px;
     width: 100%;
     img {
       height: 100%;
+    }
+    @media (max-width: 768px) {
+      height: 300px;
+      display: flex;
+      justify-content: center;
+    }
+    @media (max-width: 375px) {
+      height: 200px;
     }
   }
   .btn-try {
@@ -14,12 +34,25 @@
     font-size: 12px;
     font-weight: 700;
   }
+
+  .home {
+    @media (max-width: 768px) {
+      text-align: center;
+    }
+  }
 }
 
 .feature {
   padding: 88px 88px;
+  @media (max-width: 1024px) {
+    padding: 44px 44px;
+  }
   &-wrapper {
     padding: 40px 40px 40px 100px;
+
+    @media (max-width: 1024px) {
+      padding: 40px 40px 40px 40px;
+    }
     box-shadow: 5px 5px 50px #e6e4e4;
     p {
       color: $grayis-blue;
@@ -31,5 +64,12 @@
   width: 100%;
   img {
     height: 100%;
+  }
+
+  @media (max-width: 768px) {
+    height: 200px;
+  }
+  @media (max-width: 375px) {
+    height: 140px;
   }
 }
