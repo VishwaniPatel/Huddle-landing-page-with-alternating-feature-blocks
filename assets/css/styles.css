@@ -6245,6 +6245,10 @@ progress {
   }
 }
 
+.btn:hover {
+  background-color: opacity(0.5);
+}
+
 footer {
   background-color: hsl(192deg, 100%, 9%);
   padding: 40px 20px;
